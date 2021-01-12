@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+  width: 4rem;
+}
+
+h1 {
+  margin-top: 0;
+  color: #24454c;
+  font-size: 3.5rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 1.5625rem;
+}
+
+h3 {
+  color: #1ad3f1;
+  font-size: 1.5625rem;
+}
+
+p {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+.upper {
+  background-color: #EAF6F6;
+  width: 100%;
+  height: 670px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle {
+  background-color: #def2f3;
+  width: 100%;
+}
+
+.lower {
+  background-color: #66BFBF;
+  width: 100%;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.pro {
+  font-weight: bold;
+}
+
+.lower-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.upper-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2;
+  color: #24454c;
+}
+
+.profile_main {
+  border-radius: 50%;
+  background-color: white;
+}
+
+.profile_small {
+  height: 5rem;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill_1 {
+  width: 200px;
+  height: auto;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill_2 {
+  width: 200px;
+  height: auto;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  float: right;
+  margin-left: 30px;
+}
+
+a {
+  color: #def2f3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.links {
+  display: inline-block;
+}
+
+.BUTTON_LQJ {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  width: 200px;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 16px;
+  background-color: #11999E;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_LQJ:hover {
+  background: #0E787C;
+  border: solid #000000 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.mountain {
+  background-position: center bottom;
+}
